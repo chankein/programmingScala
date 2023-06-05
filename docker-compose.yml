@@ -1,0 +1,11 @@
+version: '3.5'
+services:
+  polynote:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    container_name: polynote
+    volumes:
+      - ./work:/opt/polynote/notebooks
+    ports:
+      - "8192:8192"
