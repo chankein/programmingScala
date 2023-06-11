@@ -1,0 +1,46 @@
+[0m[[0m[31merror[0m] [0m[0m/opt/polynote/notebooks/chapter14/ElementSpec.scala:1:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.flatspec.AnyFlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/opt/polynote/notebooks/chapter14/ElementSpec.scala:2:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.matchers.should.Matchers[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/opt/polynote/notebooks/chapter14/ElementSpec.scala:7:13: not found: type Element[0m
+[0m[[0m[31merror[0m] [0m[0m  ) extends Element[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/opt/polynote/notebooks/chapter14/ElementSpec.scala:9:48: not found: type Element[0m
+[0m[[0m[31merror[0m] [0m[0m  private class LineElement(s: String) extends Element {[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/opt/polynote/notebooks/chapter14/ElementSpec.scala:19:13: not found: type Element[0m
+[0m[[0m[31merror[0m] [0m[0m  ) extends Element {[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/opt/polynote/notebooks/chapter14/ElementSpec.scala:24:39: not found: type Element[0m
+[0m[[0m[31merror[0m] [0m[0m  def elem(contents:  Array[String]): Element =[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/opt/polynote/notebooks/chapter14/ElementSpec.scala:27:49: not found: type Element[0m
+[0m[[0m[31merror[0m] [0m[0m  def elem(chr: Char, width: Int, height: Int): Element =[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/opt/polynote/notebooks/chapter14/ElementSpec.scala:30:27: not found: type Element[0m
+[0m[[0m[31merror[0m] [0m[0m  def elem(line: String): Element =[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/opt/polynote/notebooks/chapter14/ElementSpec.scala:35:27: not found: type AnyFlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0mclass ElementSpec extends AnyFlatSpec with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/opt/polynote/notebooks/chapter14/ElementSpec.scala:35:44: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0mclass ElementSpec extends AnyFlatSpec with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/opt/polynote/notebooks/chapter14/ElementSpec.scala:37:24: value should is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "A UniformElement" should[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/opt/polynote/notebooks/chapter14/ElementSpec.scala:43:5: not found: value it[0m
+[0m[[0m[31merror[0m] [0m[0m    it should "have a height equal to the passed value" in {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/opt/polynote/notebooks/chapter14/ElementSpec.scala:48:5: not found: value it[0m
+[0m[[0m[31merror[0m] [0m[0m    it should "throw an IAE if passed a negative width" in {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/opt/polynote/notebooks/chapter14/ElementSpec.scala:49:9: not found: value an[0m
+[0m[[0m[31merror[0m] [0m[0m        an [IllegalArgumentException] should be thrownBy {[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/opt/polynote/notebooks/chapter14/ElementSpec.scala:49:46: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m        an [IllegalArgumentException] should be thrownBy {[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m15 errors found[0m
